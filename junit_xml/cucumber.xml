@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="4.517629">
+<testcase classname="Delete request using resreq site" name="Delete rest request api" time="2.81296">
+<system-out><![CDATA[Given Delete url request....................................................passed
+When user Delete request....................................................passed
+Then Delete request status code is 204......................................passed
+And Delete response headers contains........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test number of circuits for year 2017" name="Number of circuits test scenario" time="1.03825">
+<system-out><![CDATA[Given url for get request...................................................passed
+When user sends request.....................................................passed
+Then status code is 200.....................................................passed
+And size of circuit id is 20................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="put request using resreq site" name="put a rest request api" time="0.325969">
+<system-out><![CDATA[Given put url request.......................................................passed
+When user put request.......................................................passed
+Then put request status code is 200.........................................passed
+And put response body contains..............................................passed
+And put response headers contains...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="post request using resreq site" name="post a rest request api" time="0.34045">
+<system-out><![CDATA[Given post url for send request.............................................passed
+When user post request......................................................passed
+Then post request status code is 201........................................passed
+And post response body contains.............................................passed
+And post response headers contains..........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
